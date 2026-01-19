@@ -3,3 +3,10 @@ env/*
 
 __pycache__
 __pycache__/*
+
+# Coverage files
+.coverage
+htmlcov/
+*.cover
+.pytest_cache
+.pytest_cache/
