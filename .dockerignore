@@ -1,0 +1,20 @@
+env
+env/*
+
+__pycache__
+__pycache__/*
+
+# Test files
+tests
+tests/*
+
+# Coverage files
+.coverage
+htmlcov/
+*.cover
+.pytest_cache
+.pytest_cache/
+
+# Docker files
+.dockerignore
+Dockerfile
