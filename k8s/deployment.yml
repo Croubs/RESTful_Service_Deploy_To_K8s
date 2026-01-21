@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: restful-service
-          image: croubs/restful_service:latest
+          image: croubs/restful_service:sha-c8c8f6c
+          imagePullPolicy: Always
           ports:
             - containerPort: 8000
           resources:
