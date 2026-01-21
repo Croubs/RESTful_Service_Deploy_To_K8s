@@ -78,6 +78,14 @@ docker run -p 8000:8000 restful-service
 curl http://localhost:8000/health
 ```
 
+## Docker Image
+Images are automatically built and pushed to Docker Hub via GitHub Actions:
+- Repository:
+https://hub.docker.com/repository/docker/croubs/restful_service/
+- Tags:
+   - `latest` → main branch
+   - `sha-XXXXXX` → commit-specific versions 
+
 ## Development Workflow
 1. Develop and test locally, use the develop branch for commits
 2. Push to develop branch
