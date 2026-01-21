@@ -105,7 +105,7 @@ curl http://localhost:8000/health
    ```
 3. Access the API using port-forward
    ```bash
-   kubectl port-forward deployment/restful-service 8000:8000
+   kubectl port-forward deployment/restful-service-deployment 8000:8000
    ```
 
 ## Using manage.sh for Deployment Operations
